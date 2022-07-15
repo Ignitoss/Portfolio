@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Christopher Kocher | Junior</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <a href="#">
+        <img class="logo" alt="Christopher Kocher logo" src="#about" />
+      </a> -->
+      <p class="logo">Kocher</p>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">About</a></li>
+          <li><a class="main-nav-link" href="#">Portfolio</a></li>
+          <li><a class="main-nav-link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Hello, I'm Christopher!</h1>
+            <h2 class="heading-secondary">
+              I'm an upcoming junior developer excited to work with You!
+            </h2>
+          </div>
+          <!-- <div class="hero-img">
+            <picture>
+              <img
+                src="imgs/hero-img.jpg"
+                class="hero-img"
+                alt="computer coding on laptop screen"
+              />
+            </picture>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="section-about" id="about">
+        <div class="container">
+          <h2 class="heading-secondary">About Me</h2>
+        </div>
+        <div class="container">
+          <p class="about-me-paragraph">
+            I am a new web designer/developer eager(excited) to learn and grow
+            amoung professionals. I have a bachelors degree in marketing and
+            merchandising and through various positions and hobbies found a
+            passion in all things computers.
+          </p>
+          <p class="about-me-paragraph">
+            Currently aiming to cultivate my skillset as a front-end developer
+            with a long-term goal to explore back-end programming to have a deep
+            understanding on both sides of the profession. As such I am seeking
+            a junior developer position to kickstart my career.
+          </p>
+        </div>
+        <div class="container grid--3-cols">
+          <div class="skillset">
+            <div>
+              <ion-icon class="skillset-logo" name="logo-html5"></ion-icon>
+              <p class="skillset-type">HTML</p>
+            </div>
+          </div>
+          <div class="skillset">
+            <div>
+              <ion-icon class="skillset-logo" name="logo-css3"></ion-icon>
+              <p class="skillset-type">CSS</p>
+            </div>
+          </div>
+          <div class="skillset">
+            <div>
+              <ion-icon class="skillset-logo" name="logo-javascript"></ion-icon>
+              <p class="skillset-type">JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-portfolio">
+        <div class="container">
+          <h2 class="heading-secondary">Projects</h2>
+        </div>
+        <div class="container grid--3-cols">
+          <div class="project">
+            <img
+              src="imgs/Omnifood-web.png"
+              class="project-img"
+              alt="Omnifood webpage"
+            />
+            <div class="project-content">
+              <h4 class="project-header">Omnifood Website</h4>
+              <ul class="project-attributes">
+                <li class="project-attribute">
+                  <ion-icon
+                    class="attribute-icon attribute-icon-small"
+                    name="code-slash-outline"
+                  ></ion-icon
+                  ><span> Languages Used - HTML, CSS </span>
+                </li>
+                <li class="project-attribute">
+                  <ion-icon
+                    class="attribute-icon"
+                    name="information-outline"
+                  ></ion-icon
+                  ><span>
+                    Instructional project completed with HTML/CSS course for
+                    certificate
+                  </span>
+                </li>
+                <li class="project-attribute">
+                  <button class="attribute-btn">
+                    <ion-icon
+                      class="attribute-logo"
+                      name="logo-github"
+                    ></ion-icon>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-contact">
+        <div class="container">
+          <h2 class="heading-secondary">Get in touch</h2>
+        </div>
+        <div class="container">
+          <p class="contact-paragraph">
+            I am searching opportunities for full time positions, please reach
+            out!
+          </p>
+        </div>
+        <div class="container contact-flex">
+          <button class="contact-btn contact-btn-email">
+            <ion-icon
+              class="contact-logo contact-logo-email"
+              name="mail-outline"
+            ></ion-icon>
+            <span class="contact-text">kocherchristopher@outlook.com</span>
+          </button>
+          <button class="contact-btn">
+            <ion-icon class="contact-logo" name="logo-linkedin"></ion-icon>
+          </button>
+          <button class="contact-btn">
+            <ion-icon class="contact-logo" name="logo-github"></ion-icon>
+          </button>
+          <button class="contact-btn">
+            <ion-icon class="contact-logo" name="logo-codepen"></ion-icon>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-text">Designed &amp; built by Christopher Kocher</p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

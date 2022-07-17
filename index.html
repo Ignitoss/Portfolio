@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Christopher Kocher | Junior</title>
+    <title>Christopher Kocher | Junior Developer</title>
   </head>
   <body>
     <header class="header">
@@ -24,16 +24,16 @@
       <p class="logo">Kocher</p>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">About</a></li>
-          <li><a class="main-nav-link" href="#">Portfolio</a></li>
-          <li><a class="main-nav-link" href="#">Contact</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="main-nav-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section class="section-hero">
-        <div class="hero">
+        <div class="hero gradient-background">
           <div class="hero-text-box">
             <h1 class="heading-primary">Hello, I'm Christopher!</h1>
             <h2 class="heading-secondary">
@@ -58,8 +58,8 @@
         </div>
         <div class="container">
           <p class="about-me-paragraph">
-            I am a new web designer/developer eager(excited) to learn and grow
-            amoung professionals. I have a bachelors degree in marketing and
+            I am a new web designer/developer excited to learn and grow amoung
+            professionals. I have a bachelors degree in marketing and
             merchandising and through various positions and hobbies found a
             passion in all things computers.
           </p>
@@ -92,44 +92,57 @@
         </div>
       </section>
 
-      <section class="section-portfolio">
+      <section class="section-portfolio" id="portfolio">
         <div class="container">
           <h2 class="heading-secondary">Projects</h2>
         </div>
-        <div class="container grid--3-cols">
+        <div class="container grid--3-cols project-container">
           <div class="project">
-            <img
-              src="imgs/Omnifood-web.png"
-              class="project-img"
-              alt="Omnifood webpage"
-            />
+            <a
+              href="https://omnifood-ignitis.netlify.app/"
+              class="project-link"
+            >
+              <picture>
+                <source srcset="imgs/Omnifood-web.webp" type="image/webp" />
+                <source srcset="imgs/Omnifood-web-min.png" type="img/png" />
+
+                <img
+                  src="imgs/Omnifood-web-min.png"
+                  class="project-img"
+                  alt="Omnifood webpage"
+                />
+              </picture>
+            </a>
             <div class="project-content">
-              <h4 class="project-header">Omnifood Website</h4>
+              <a
+                href="https://omnifood-ignitis.netlify.app/"
+                class="project-link"
+              >
+                <h4 class="project-header">Omnifood Website</h4></a
+              >
+              <p class="project-attributes project-info">
+                Instructional project completed for certificate with HTML/CSS
+                course
+              </p>
               <ul class="project-attributes">
                 <li class="project-attribute">
                   <ion-icon
                     class="attribute-icon attribute-icon-small"
                     name="code-slash-outline"
                   ></ion-icon
-                  ><span> Languages Used - HTML, CSS </span>
+                  ><span> Languages - HTML, CSS </span>
                 </li>
+
                 <li class="project-attribute">
-                  <ion-icon
-                    class="attribute-icon"
-                    name="information-outline"
-                  ></ion-icon
-                  ><span>
-                    Instructional project completed with HTML/CSS course for
-                    certificate
-                  </span>
-                </li>
-                <li class="project-attribute">
-                  <button class="attribute-btn">
-                    <ion-icon
-                      class="attribute-logo"
+                  <a
+                    href="https://github.com/Ignitoss/Omnifood-Coursework"
+                    class="project-git"
+                    ><ion-icon
+                      class="attribute-icon attribute-icon-small"
                       name="logo-github"
-                    ></ion-icon>
-                  </button>
+                    ></ion-icon
+                    ><span>GitHub repository</span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -137,33 +150,36 @@
         </div>
       </section>
 
-      <section class="section-contact">
+      <section class="section-contact" id="contact">
         <div class="container">
           <h2 class="heading-secondary">Get in touch</h2>
         </div>
         <div class="container">
           <p class="contact-paragraph">
-            I am searching opportunities for full time positions, please reach
+            I am searching opportunities for full-time positions, please reach
             out!
           </p>
         </div>
         <div class="container contact-flex">
-          <button class="contact-btn contact-btn-email">
+          <a class="contact-btn contact-btn-email">
             <ion-icon
               class="contact-logo contact-logo-email"
               name="mail-outline"
             ></ion-icon>
             <span class="contact-text">kocherchristopher@outlook.com</span>
-          </button>
-          <button class="contact-btn">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kocherchristopher"
+            class="contact-btn"
+          >
             <ion-icon class="contact-logo" name="logo-linkedin"></ion-icon>
-          </button>
-          <button class="contact-btn">
+          </a>
+          <a href="https://github.com/Ignitoss" class="contact-btn">
             <ion-icon class="contact-logo" name="logo-github"></ion-icon>
-          </button>
-          <button class="contact-btn">
+          </a>
+          <a href="https://codepen.io/ignitoss" class="contact-btn">
             <ion-icon class="contact-logo" name="logo-codepen"></ion-icon>
-          </button>
+          </a>
         </div>
       </section>
     </main>

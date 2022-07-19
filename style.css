@@ -57,7 +57,7 @@ Medium: 25px
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
@@ -98,11 +98,7 @@ body {
 *******************************************************
 */
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.8rem;
-  color: #aaaaab;
+.section-header {
   background: -webkit-radial-gradient(
     circle farthest-side at bottom,
     #0e0c29,
@@ -115,6 +111,13 @@ body {
     #020827,
     #070024
   );
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  color: #aaaaab;
 }
 
 .logo {
@@ -159,11 +162,18 @@ body {
 */
 
 .hero {
+  display: flex;
   max-width: 130rem;
-  margin: auto;
+  height: 100vh;
+  margin: 0 auto;
   gap: 9.6rem;
   align-items: center;
-  padding: 24.2rem 9.6rem;
+  padding: 0 12.8rem;
+}
+
+.hero-text-box {
+  padding: 0 9.6rem;
+  align-items: center;
 }
 
 .heading-primary {
@@ -190,6 +200,7 @@ body {
 */
 
 .section-about {
+  margin: 16.4rem 0;
   padding: 12.8rem;
 }
 
@@ -231,10 +242,11 @@ body {
 
 .section-portfolio {
   padding: 1.6rem;
-  margin: 0 auto;
+  margin: 9.6rem auto;
 }
 
 .project-container {
+  margin: 1.6rem;
   max-width: 160rem;
   padding: 2.4rem;
   gap: 1.6rem;
@@ -352,7 +364,7 @@ body {
 */
 
 .section-contact {
-  margin: 8rem;
+  margin: 16.4rem 8rem;
   padding: 9.6rem 12.8rem;
 }
 

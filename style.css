@@ -77,7 +77,8 @@ body {
 }
 
 .container {
-  max-width: 100vh;
+  /* max-width: 100vh; */
+  max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -146,6 +147,7 @@ body {
   display: flex;
   align-items: center;
   gap: 4.8rem;
+  padding: 1.2rem;
 }
 
 .main-nav-link:link,
@@ -174,7 +176,7 @@ body {
   max-width: 130rem;
   height: 100vh;
   margin: 0 auto;
-  gap: 9.6rem;
+  /* gap: 9.6rem; */
   align-items: center;
   padding: 0 12.8rem;
 }
@@ -195,6 +197,7 @@ body {
   font-weight: 600;
   font-size: 3.6rem;
   letter-spacing: -1.5px;
+  padding: 1.6rem 0;
 }
 
 .hero-img {
@@ -254,7 +257,6 @@ body {
 }
 
 .project-container {
-  margin: 1.6rem;
   max-width: 160rem;
   padding: 2.4rem;
   gap: 1.6rem;
@@ -331,7 +333,7 @@ body {
 .project-attribute {
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.6rem;
 }
 
@@ -348,12 +350,12 @@ body {
 .attribute-icon-small {
   height: 2.4rem;
   width: 2.4rem;
-  padding: 0.6rem 0;
 }
 
 .project-git:link,
 .project-git:visited {
   display: flex;
+  align-items: center;
   gap: 1.6rem;
   text-decoration: none;
   color: #d4d5d6;
@@ -377,7 +379,7 @@ body {
 }
 
 .contact-paragraph {
-  padding: 2.4rem 3.6rem;
+  padding: 2.4rem 1.2rem;
   font-size: 2.4rem;
 }
 

@@ -99,6 +99,7 @@ body {
 */
 
 .section-header {
+  /* max-width: 130rem; */
   background: -webkit-radial-gradient(
     circle farthest-side at bottom,
     #0e0c29,
@@ -116,8 +117,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 0.8rem;
+  align-items: center;
   color: #aaaaab;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -132,13 +137,17 @@ body {
 *******************************************************
 */
 
+/* .main-nav {
+  display: flex;
+  justify-content: center;
+} */
+
 .main-nav-list {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 4.8rem;
-  float: right;
-  padding: 1.2rem 2.4rem;
+  /* padding: 1.2rem 2.4rem; */
 }
 
 .main-nav-link:link,
@@ -148,6 +157,7 @@ body {
   color: #aaaaab;
   font-weight: 500;
   font-size: 2.4rem;
+  transition: all 0.3s;
 }
 
 .main-nav-link:hover,

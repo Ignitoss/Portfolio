@@ -16,7 +16,9 @@ Recently discovering a fascination for coding when(while) ..., I decided to purs
 
 I have had a rising interest in coding since my first role in a networking position and recently decided to invest in myself and dive full into a career in programming.
 
-Currently aiming to cultivate my skillset as a front-end developer with a long-term goal to explore back-end programming to have a deep understanding on both sides of the profession. As such I am seeking a junior developer position to kickstart my career.
+I have had a rising interest in coding since building my first computer after college. I have since taken roles in networking and engineering and found I love the chellenge of debugging problems and seeing tangible results from those solutions. I enjoy creating something that is useful for other people and the endless learning that accompanies an always improving industry.
+
+Currently I am aiming to cultivate my skillset as a front-end developer with a long-term goal to explore back-end programming to have a deep understanding on both sides of the profession. As such I am seeking a junior developer position to kickstart my career.
 
 #### My Skillset
 

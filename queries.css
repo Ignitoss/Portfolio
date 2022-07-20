@@ -5,12 +5,126 @@
 */
 
 @media (max-width: 86em) {
-  .hero {
-    width: 120rem;
+  .heading-secondary {
+    font-size: 3rem;
+  }
+}
+
+/* 
+*******************************************************
+-- Below 1200px --
+*******************************************************
+*/
+
+@media (max-width: 75em) {
+  .heading-primary {
+    font-size: 3.6rem;
   }
 
   .heading-secondary {
-    font-size: 3rem;
+    font-size: 2.4rem;
+  }
+
+  .about-me-paragraph {
+    font-size: 1.6rem;
+  }
+
+  .skillset {
+    font-size: 1.6rem;
+  }
+
+  .project-header {
+    font-size: 2rem;
+  }
+
+  .project-attributes {
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+  }
+
+  .section-contact {
+    margin: 8rem;
+  }
+
+  .contact-paragraph {
+    font-size: 1.6rem;
+  }
+
+  .contact-text {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+}
+
+/* 
+*******************************************************
+-- Below 928px --
+*******************************************************
+*/
+
+@media (max-width: 58em) {
+  .main-nav-link:link,
+  .main-nav-link:visited,
+  .logo {
+    font-size: 2rem;
+  }
+
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 2rem;
+  }
+
+  .skillset {
+    margin: 2.4rem auto;
+  }
+
+  .project-header {
+    font-size: 1.6rem;
+  }
+
+  .project-attributes {
+    font-size: 1.2rem;
+    line-height: 3.6rem;
+  }
+
+  .section-contact {
+    margin: auto;
+  }
+
+  .contact-paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+/* 
+*******************************************************
+-- Below 800px --
+*******************************************************
+*/
+
+@media (max-width: 50em) {
+  .header {
+    height: 6.4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited,
+  .logo {
+    font-size: 1.6rem;
+  }
+
+  .heading-primary {
+    font-size: 2.4rem;
+  }
+
+  .about-me-paragraph {
+    font-size: 1.2rem;
   }
 }
 

@@ -30,8 +30,19 @@
     font-size: 1.6rem;
   }
 
+  .skillset-container {
+    max-width: 50rem;
+  }
+
   .skillset {
     font-size: 1.6rem;
+    margin: 5.6rem 0;
+  }
+
+  .skillset-logo {
+    padding: 1rem 3.2rem;
+    height: 2rem;
+    width: 2rem;
   }
 
   .project-container {
@@ -62,6 +73,10 @@
 
   .contact-text {
     font-size: 1.2rem;
+  }
+
+  .contact-flex {
+    column-gap: 0;
   }
 
   .footer {
@@ -166,6 +181,15 @@
     font-size: 1.2rem;
   }
 
+  .skillset {
+    font-size: 1.4rem;
+  }
+
+  .skillset-logo {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
   .project-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -217,8 +241,16 @@
     padding: 0 6.4rem;
   }
 
+  .section-about {
+    padding: 12.8rem 9.6rem;
+  }
+
   .section-contact {
     padding: 6.4rem;
+  }
+
+  .contact-flex {
+    gap: 0;
   }
 }
 
@@ -229,6 +261,10 @@
 */
 
 @media (max-width: 34em) {
+  .container {
+    padding: 0;
+  }
+
   .hero-text-box {
     padding: 0 2.4rem;
   }
@@ -243,7 +279,13 @@
   }
 
   .contact-flex {
+    flex-wrap: wrap;
     gap: 0.8rem;
+  }
+
+  .contact-btn-email {
+    width: 100%;
+    justify-content: center;
   }
 }
 

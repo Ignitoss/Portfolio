@@ -8,6 +8,10 @@ const allLinks = document.querySelectorAll("a:link");
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
+("nav-open");
+
+/////////////////////////////////////////////////////////////////
+// Smooth scolling animation
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
@@ -31,6 +35,26 @@ allLinks.forEach(function (link) {
 });
 
 /////////////////////////////////////////////////////////////////
+// Sticky navigation
+
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    if (ent.isIntersecting === false) document.body.classList.add("sticky");
+
+    if (ent.isIntersecting) document.body.classList.remove("sticky");
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+obs.observe(sectionHeroEl);
+
+/////////////////////////////////////////////////////////////////
 // Flexbox gap fix for safari
 
 function checkFlexGap() {
@@ -45,7 +69,6 @@ function checkFlexGap() {
   document.body.appendChild(flex);
   var isSupported = flex.scrollHeight === 1;
   flex.parentNode.removeChild(flex);
-  console.log(isSupported);
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
